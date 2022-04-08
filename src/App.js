@@ -1,12 +1,19 @@
 import React from "react";
+
+import "./App.css";
+
 import Header from "./components/Header";
+import Sidebar from "./components/Side/Sidebar";
+import VideosList from "./components/VideosList";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* sidebar */}
-      {/* video */}
+      <div className="content">
+        <Sidebar />
+        <VideosList />
+      </div>
     </div>
   );
 }

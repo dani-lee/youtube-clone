@@ -1,0 +1,11 @@
+.sidebar {
+  flex: 0.15;
+  overflow-y: scroll;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  margin: 10px 0px;
+  background-color: lightgray;
+}
