@@ -1,0 +1,43 @@
+.videoCard {
+  width: 270px;
+  margin: 0 8px;
+  margin-bottom: 40px;
+}
+
+.video__thumnail {
+  width: 271.98px;
+  height: 152.61px;
+}
+
+.video__details {
+  display: flex;
+}
+
+.channel__image {
+  width: 36px;
+  margin-top: 12px;
+  margin-right: 12px;
+  border-radius: 50%;
+}
+
+.video__title {
+  font-weight: 600;
+  max-height: 4rem;
+  overflow: hidden;
+  display: block;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+
+  margin: 12px 0 4px 0;
+  padding-right: 24px;
+}
+
+.video__channel,
+.video__views {
+  color: #606060;
+  font-size: 0.9em;
+}
