@@ -1,0 +1,16 @@
+.content-header {
+  width: 100%;
+}
+
+.chips-wrapper {
+  position: fixed;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  left: 235px;
+}
+
+.scroll-container {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
